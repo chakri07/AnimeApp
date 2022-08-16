@@ -14,7 +14,7 @@ object Constants {
     val contactUrl = "https://lkdzggekod.execute-api.us-east-1.amazonaws.com/Prod/"
     val youtubeUrl = "https://youtube.googleapis.com/youtube/v3/"
 
-    val utubeAPiKey = "AIzaSyDjDFeKAVRXcpgqmCCjSLqGuzE7ULqD0oo"
+    val utubeAPiKey = <---youtube api key--->
 
 
     val fakeQuote: Quote
