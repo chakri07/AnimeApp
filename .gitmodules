@@ -1,0 +1,12 @@
+[submodule "androidretro"]
+	path = androidretro
+	url = git@bitbucket.org:chakri07/androidretro.git
+	branch = stackfinal
+[submodule "awscontact"]
+	path = awscontact
+	url = git@bitbucket.org:chakri07/awscontact.git
+	branch = stackfinal
+[submodule "quarkusrest"]
+	path = quarkusrest
+	url = git@bitbucket.org:chakri07/quarkusrest.git
+	branch = stackfinal

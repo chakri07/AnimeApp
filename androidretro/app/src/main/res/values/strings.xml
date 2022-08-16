@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">retroapplication</string>
+    <string name="error_message">Error !! Tap to retry.</string>
+
+    <string name="article_list">Books List</string>
+    <string name="article_detail">Book Detail</string>
+    <string name="no_data_found">No data found!</string>
+
+    <string name="use_auth">false</string>
+    <string name="base_url">https://container-service-22.9r4o895c5nvr8.us-east-2.cs.amazonlightsail.com</string>
+
+    <string name="lorem">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</string>
+    <string name="about_this_app">About this App</string>
+    <string name="fav_added">Favorite Added</string>
+    <string name="fav_already">This book is already in your favorites</string>
+    <string name="was_error">\"There was an error: \"</string>
+    <string name="favorite_detail">Favorite Detail</string>
+    <string name="fav_removed">Favorite Removed</string>
+    <string name="error_on_server">\"There was an error on the server: \"</string>
+    <string name="book_search">Book Search</string>
+</resources>

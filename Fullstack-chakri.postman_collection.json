@@ -1,0 +1,272 @@
+{
+	"info": {
+		"_postman_id": "d7176950-3a5b-43d1-9dff-a7c5a340fe2e",
+		"name": "Fullstack-chakri",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20472745"
+	},
+	"item": [
+		{
+			"name": "DB operations",
+			"item": [
+				{
+					"name": "Get_all_fav_quotes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://fullstack-final.9s4t2ca60nlac.us-east-1.cs.amazonlightsail.com/quote",
+							"protocol": "https",
+							"host": [
+								"fullstack-final",
+								"9s4t2ca60nlac",
+								"us-east-1",
+								"cs",
+								"amazonlightsail",
+								"com"
+							],
+							"path": [
+								"quote"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add_a_fav_quote",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n      \"quote\": \"testQuote\",\r\n      \"anime\": \"TestAnime\",\r\n      \"character\": \"TestChar\",\r\n      \"userEmail\": \"postmantest@gmail.com\"\r\n   }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://fullstack-final.9s4t2ca60nlac.us-east-1.cs.amazonlightsail.com/quote",
+							"protocol": "https",
+							"host": [
+								"fullstack-final",
+								"9s4t2ca60nlac",
+								"us-east-1",
+								"cs",
+								"amazonlightsail",
+								"com"
+							],
+							"path": [
+								"quote"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get_favs_of_any_email",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://fullstack-final.9s4t2ca60nlac.us-east-1.cs.amazonlightsail.com/quote/{{email}}",
+							"protocol": "https",
+							"host": [
+								"fullstack-final",
+								"9s4t2ca60nlac",
+								"us-east-1",
+								"cs",
+								"amazonlightsail",
+								"com"
+							],
+							"path": [
+								"quote",
+								"{{email}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete_any_fav_by_id",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://fullstack-final.9s4t2ca60nlac.us-east-1.cs.amazonlightsail.com/quote/{id}",
+							"protocol": "https",
+							"host": [
+								"fullstack-final",
+								"9s4t2ca60nlac",
+								"us-east-1",
+								"cs",
+								"amazonlightsail",
+								"com"
+							],
+							"path": [
+								"quote",
+								"{id}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update_a_record",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n      \"quote\": \"testQuote\",\r\n      \"anime\": \"TestAnime\",\r\n      \"character\": \"changedChar\",\r\n      \"userEmail\": \"postmantest@gmail.com\"\r\n   }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://fullstack-final.9s4t2ca60nlac.us-east-1.cs.amazonlightsail.com/quote/{id}",
+							"protocol": "https",
+							"host": [
+								"fullstack-final",
+								"9s4t2ca60nlac",
+								"us-east-1",
+								"cs",
+								"amazonlightsail",
+								"com"
+							],
+							"path": [
+								"quote",
+								"{id}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Email Endpoints",
+			"item": [
+				{
+					"name": "New Request",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\" : \"chakradhar\",\r\n  \"body\" : \"You know I am a test Bodyyy\",\r\n  \"email\" : \"sesTest@gmail.com\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://lkdzggekod.execute-api.us-east-1.amazonaws.com/Prod/mail/",
+							"protocol": "http",
+							"host": [
+								"lkdzggekod",
+								"execute-api",
+								"us-east-1",
+								"amazonaws",
+								"com"
+							],
+							"path": [
+								"Prod",
+								"mail",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Youtube search",
+			"item": [
+				{
+					"name": "https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=4&q=narutoTrailer&key=AIzaSyDjDFeKAVRXcpgqmCCjSLqGuzE7ULqD0oo ",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "",
+									"type": "string"
+								},
+								{
+									"key": "in",
+									"value": "header",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=4&q=narutoTrailer&key=AIzaSyDjDFeKAVRXcpgqmCCjSLqGuzE7ULqD0oo ",
+							"protocol": "https",
+							"host": [
+								"youtube",
+								"googleapis",
+								"com"
+							],
+							"path": [
+								"youtube",
+								"v3",
+								"search"
+							],
+							"query": [
+								{
+									"key": "part",
+									"value": "snippet"
+								},
+								{
+									"key": "channelType",
+									"value": "any",
+									"disabled": true
+								},
+								{
+									"key": "maxResults",
+									"value": "4"
+								},
+								{
+									"key": "q",
+									"value": "narutoTrailer"
+								},
+								{
+									"key": "key",
+									"value": "AIzaSyDjDFeKAVRXcpgqmCCjSLqGuzE7ULqD0oo "
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "email",
+			"value": "test@gmail.com"
+		}
+	]
+}

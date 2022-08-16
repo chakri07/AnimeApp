@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-androidretro-dev-180109-authRole",
+      "UnauthRoleArn": "arn:aws:iam::168295891554:role/amplify-androidretro-dev-180109-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::168295891554:role/amplify-androidretro-dev-180109-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-androidretro-dev-180109-deployment",
+      "UnauthRoleName": "amplify-androidretro-dev-180109-unauthRole",
+      "StackName": "amplify-androidretro-dev-180109",
+      "StackId": "arn:aws:cloudformation:us-east-1:168295891554:stack/amplify-androidretro-dev-180109/296b5000-1837-11ed-9d57-12305d6f70ab",
+      "AmplifyAppId": "d3f4d29cchszek"
+    },
+    "categories": {
+      "auth": {
+        "androidretro6dabdbea": {}
+      }
+    }
+  }
+}

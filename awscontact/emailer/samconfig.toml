@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "emailer"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-gf5exoy3ohbw"
+s3_prefix = "emailer"
+region = "us-east-1"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
